@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: var(--font-krona-one);
+    background-color: #24292F;
+    color: #F7F9F8;
+}
+
+:root {
+    --font-krona-one: "Krona One", sans-serif;
+
+    --yellow: #EBC556;
+    --font-dark: #24292F;
+}
