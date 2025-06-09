@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url(./utils.css);
+@import url(./global.css);
+@import url(./tela-inicial.css);
+@import url(./tela-cadastro.css);
+@import url(./form.css);
+@import url(./home.css);
+
+.modal {
+  position: fixed;
+  top: 20%;
+  left: 35%;
+  background: #fff;
+  padding: 20px;
+  border: 2px solid #000;
+  z-index: 10;
+}
+
+.hidden {
+  display: none;
+}

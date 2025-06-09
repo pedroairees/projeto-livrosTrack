@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>livrosTrack - Home</title>
+    <link rel="stylesheet" href="./assets/css/index.css">
+</head>
+<body>
+    <main class="main-home">
+        <h1>Livro<span>Track</span></h1>
+        <div class="area-livros">
+            <div class="livros-andamento">
+                <h2>Livros em Andamento</h2>
+                <div class="andamento-wrapper">
+                    <div class="livros-wrapper">
+                        <p>Nome do livros</p>
+                        <p>Autor do livro</p>
+                        <p>Progresso do livro</p>
+                    </div>
+
+                    <div class="livros-wrapper">
+                        <p>Nome do livros</p>
+                        <p>Autor do livro</p>
+                        <p>Progresso do livro</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="separator"></div>
+
+            <div class="livros-concluidos">
+                <h2>Livros Concluídos</h2>
+                <div class="concluidos-wrapper">
+                    <div class="livros-wrapper">
+                        <p>Nome do livros</p>
+                        <p>Autor do livro</p>
+                        <p>Progresso do livro</p>
+                    </div>
+
+                    <div class="livros-wrapper">
+                        <p>Nome do livros</p>
+                        <p>Autor do livro</p>
+                        <p>Progresso do livro</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <button id="btn-add">Adicionar Livro</button>
+
+        <div id="modal" class="modal hidden">
+            <form id="form-livro">
+                <label>Nome do Livro: <input type="text" name="nome" required></label><br>
+                <label>Autor: <input type="text" name="autor" required></label><br>
+                <label>Status: 
+                <select name="status" required>
+                    <option value="andamento">Em Andamento</option>
+                    <option value="concluido">Concluído</option>
+                </select>
+                </label><br>
+                <button type="submit">Salvar</button>
+                <button type="button" id="btn-cancelar">Cancelar</button>
+            </form>
+        </div>
+    </main>
+    <script src="../assets/js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+.main-home {
+    & h1 {
+        text-align: center;
+    }
+}
+
+.area-livros {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 1fr);
+}
+
+.separator {
+    width: 100%;
+    height: 1px;
+    background-color: #ccc;
+    margin: 1.875rem 0;
+}
+
+.andamento-wrapper, 
+.concluidos-wrapper {
+    display: flex;
+    gap: .625rem;
+    margin-top: .625rem;
+}
+
+.livros-wrapper {
+    border: 1px solid #ccc;
+    border-radius: 1.25rem;
+    padding: .625rem;
+    & p {
+        font-size: .8rem;
+    }
+}
