@@ -6,14 +6,54 @@
 @import url(./form.css);
 @import url(./home.css);
 
+#btn-add {
+  color: var(--font-dark);
+  background-color: var(--yellow);
+  border: none;
+  padding: 10px;
+  border-radius: .625rem;
+  margin-top: 1.25rem;
+
+  &:hover,
+  &:focus-within {
+    transition: .5s;
+    background-color: #a08627;
+    color: #000;
+  }
+}
+
 .modal {
   position: fixed;
   top: 20%;
   left: 35%;
-  background: #fff;
+  background: var(--font-dark);
+  border-radius: 1.25rem;
   padding: 20px;
   border: 2px solid #000;
   z-index: 10;
+  text-align: center;
+}
+
+#form-livro {
+  display: flex;
+  flex-direction: column;
+
+  & button {
+    margin-top: 1.25rem;
+    padding: 10px;
+    border-radius: .625rem;
+    border: none;
+    background-color: var(--yellow);
+    color: var(--font-dark);
+    font-weight: bold;
+
+    &:hover,
+    &:focus-within {
+      transition: .5s;
+      background-color: #a08627;
+      color: #000;
+    }
+  }
 }
 
 .hidden {
