@@ -17,3 +17,11 @@ body {
     --yellow: #EBC556;
     --font-dark: #24292F;
 }
+
+h1 {
+    font: 400 4rem var(--font-krona-one);
+
+    & span {
+        color: var(--yellow);
+    }
+}

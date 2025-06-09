@@ -1,2 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url(./utils.css);
 @import url(./global.css);
 @import url(./tela-inicial.css);
+@import url(./tela-cadastro.css);
+@import url(./form.css);

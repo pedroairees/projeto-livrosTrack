@@ -1,0 +1,39 @@
+fieldset {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+legend {
+    font: 400 2.5rem;
+    border-bottom: 1px solid var(--yellow);
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+label {
+    color: var(--yellow);
+    font: 400 1rem;
+}
+
+input {
+    all: unset;
+    color: #a09f9f;
+    background-color: rgba(109, 117, 125, 0.56);
+    padding: 1rem;
+    border-radius: 3.4375rem;
+
+    &:hover, 
+    &:focus {
+        transition: .5s;
+        outline: 1px solid #FB9E3A;
+    }
+}
+
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: .3125rem;
+}

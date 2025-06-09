@@ -1,18 +1,7 @@
-#main-incial {
-    display: flex;
+.main-incial {
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     height: 100vh;
     gap: 4.375rem
-}
-
-h1 {
-    font: 400 4rem var(--font-krona-one);
-
-    & span {
-        color: var(--yellow);
-    }
 }
 
 .description {
