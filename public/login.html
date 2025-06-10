@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LivrosTrack - Login</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <main class="fx-center main-cadastro">
+        <h1>Livros<span>Track</span></h1>
+
+        <div class="login">
+            <form id="loginForm">
+                <fieldset>
+                    <legend>Login</legend>
+                    <div class="input-wrapper">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" placeholder="example@examplo.com" name="email" required>
+                    </div>
+                    <div class="input-wrapper">
+                        <label for="senha">Senha</label>
+                        <input type="password" id="senha" placeholder="**************" name="password" required>
+                    </div>
+
+                    <input type="submit" value="Entrar" class="btn-entrar">
+                </fieldset>
+            </form>
+            <div id="msgErro" style="color:red;"></div>
+            <script src="js/login.js"></script>
+        </div>
+    </main>
+</body>
+</html>
